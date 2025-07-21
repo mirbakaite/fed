@@ -1,1 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#app {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+#answers {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+button {
+  background: #f0f2f5;
+  border: 1px solid #ccc;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #e0e3e9;
+  transform: scale(1.01);
+}
+
+button.correct {
+  background: #4caf50;
+  color: white;
+  border: none;
+}
+
+button.wrong {
+  background: #f44336;
+  color: white;
+  border: none;
+}
+
+#next {
+  margin-top: 1.5rem;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+#score {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+#restart {
+  margin-top: 1rem;
+  background-color: #10b981;
+  color: white;
+  font-weight: bold;
+}
+
+#question-count {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
 
